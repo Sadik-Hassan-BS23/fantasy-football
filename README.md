@@ -1,1 +1,1 @@
-# fantasy-football fintech team repository
+# fantasy-football project by fintech team
