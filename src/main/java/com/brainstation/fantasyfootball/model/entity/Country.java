@@ -1,9 +1,8 @@
 package com.brainstation.fantasyfootball.model.entity;/*
  * author: Sadik Hassan
- * created: 12:33 pm, 20/10/2022
+ * created: 2:24 pm, 20/10/2022
  */
 
-import com.brainstation.fantasyfootball.common.PointCodeType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,18 +12,13 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+@Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity
-
-public class Point {
+public class Country {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long pointID;
-
-    private PointCodeType pointCode;
-
-    private Integer pointScore;
-
+    private Long id;
+    private String countryName;
 }
