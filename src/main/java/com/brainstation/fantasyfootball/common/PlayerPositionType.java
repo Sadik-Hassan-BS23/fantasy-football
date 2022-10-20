@@ -5,4 +5,5 @@ package com.brainstation.fantasyfootball.common;
  */
 
 public enum PlayerPositionType {
+    GK,DF,MF,FW
 }
