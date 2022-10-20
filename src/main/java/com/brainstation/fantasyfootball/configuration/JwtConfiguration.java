@@ -52,8 +52,6 @@ public class JwtConfiguration extends  onePerRequestFiler{
             }
         }
 
-
-
     }
 
 }
