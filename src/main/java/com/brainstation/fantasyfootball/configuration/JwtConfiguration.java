@@ -42,6 +42,7 @@ public class JwtConfiguration extends  onePerRequestFiler{
                 e.printStackTrace();
             }
 
+
             UserDetails userDetails = this.userService.loadUserByUserName(userName);
             if(userName!= null && SecurityContextHolder.getContext().getAuthentication()==null)
             {
