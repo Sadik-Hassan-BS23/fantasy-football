@@ -1,4 +1,4 @@
-package com.brainstation.fantasyfootball.model.pojo;
+package com.brainstation.fantasyfootball.model.dto;
 
 /**
  * @author Shahinur Beg
